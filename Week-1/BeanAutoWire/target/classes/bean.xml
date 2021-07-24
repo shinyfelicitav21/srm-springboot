@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans   
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+  
+
+<bean id="s" class="org.bean.example.Sample" autowire="byName">
+<property name="message" value="Messaging.."/>
+</bean>  
+  <bean id="sstatus" class="org.bean.example.SampleStatus">
+  <property name="status" value="Pending.."/></bean>
+ 
+ <bean id="sc" class="org.bean.example.SampleClass" autowire="byType">
+<property name="message" value="Messaging.."/>
+</bean>
+</beans>  
