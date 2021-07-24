@@ -1,0 +1,6 @@
+com\org\app\controllers\StudentRegistrationController.class
+com\org\app\server\main\SpringBootRest2Application.class
+com\org\app\beans\StudentRegistrationReply.class
+com\org\app\beans\StudentRegistration.class
+com\org\app\beans\Student.class
+com\org\app\controllers\StudentRetrieveController.class
